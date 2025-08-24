@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    width: 100%;
 }
 .cointainer{
     margin: 0;
@@ -54,18 +55,61 @@ body{
     margin-top: 20px;
     border: 2px solid black;
 }
+section{
+    border: 2px solid black;
+}
 .cointainer-two{
     margin: 0;
     background-color: rgb(255, 255, 255);
     height: 400px;
     max-width: 1200PX;
-    border: 1px solid black;
     padding: 5px;
+    display: flex;
+    justify-content:space-between;
+    gap: 20px;
+    margin-top: 50px;
+    margin-left: 30px;
+
     
 }
-.cointainer-two h1{
+h1{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: larger;
     font-style: italic;
+ 
 }
+.one img{
+    border: 2px solid rgb(51, 51, 255);
+    width: 180px;
+    height: 130px;
+    border-radius: 15px;
+    padding: 3px;
+}
+.two img{
+    border: 2px solid rgb(51, 51, 255);
+    width: 180px;
+    height: 130px;
+    border-radius: 15px;
+    padding: 3px;
+}
+.three img{
+    border: 2px solid rgb(51, 51, 255);
+    width: 180px;
+    height: 130px;
+    border-radius: 15px;
+    padding: 3px;
+}
+.four img{
+    border: 2px solid rgb(51, 51, 255);
+    width: 180px;
+    height: 130px;  
+    border-radius: 15px;
+    padding: 3px;
+}
+.heroes{
+    color: black;
+}
+.cointainer-two p{
+    display: flex;
+}   
