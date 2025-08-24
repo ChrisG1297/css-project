@@ -1,0 +1,71 @@
+body{
+    margin: 0px;
+}
+.cointainer{
+    margin: 0;
+    background-color: rgb(14, 151, 231);
+    height: 400px;
+    max-width: 1200PX;
+    border: 1px solid black;
+    padding: 5px;
+    
+}
+.first-layer{
+    display: flex;
+    margin: 10px;
+    gap: 350px;
+    
+}
+.first-layer ul{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+  
+    
+}
+.first-layer a{
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+.first-layer img{
+    margin: 15px;
+   margin-left: 150px;
+}
+.second-layer{
+    margin-left: 150px;
+    color: rgb(14, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    display: flex;
+    gap: 40px;
+}
+
+.second-layer button{
+    background-color: rgb(84, 84, 236);
+    width: 100px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.box img{
+    height: 170px;
+    width: 320px;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+.cointainer-two{
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    max-width: 1200PX;
+    border: 1px solid black;
+    padding: 5px;
+    
+}
+.cointainer-two h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    font-style: italic;
+}
