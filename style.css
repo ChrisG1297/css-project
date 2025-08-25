@@ -113,3 +113,70 @@ h1{
 .cointainer-two p{
     display: flex;
 }   
+.cointainer-three{
+    background-color: cadetblue;
+    border: 2px solid black;
+    height: 400px;
+    max-width: 1200PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.moto{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.nothing{
+    display: flex;
+    justify-content: center;
+}
+.author{
+    display: flex;
+    justify-content: flex-end;
+    font-style: oblique;
+    font-weight:bold;
+}
+.section{
+    background-color: rgb(72, 236, 108);
+    border: 2px solid black;
+    height: 400px;
+    max-width: 1200PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.blue{
+    background-color: hsl(240, 86%, 58%);
+    width: 600px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+}   
+.blue p{
+    color: white;
+
+}
+.blue button{
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    border-radius: 15px;
+}
+.blue button:hover{
+    background-color: aqua;
+}
+footer{
+    background-color: darkcyan;
+    border: 2px black solid;
+    padding: 15px;
+}
+footer a{
+    text-decoration: none;
+}
